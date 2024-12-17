@@ -24,18 +24,16 @@ An HTML CSS responsive static page challenge for practice at any level.
 ### Links
 
 - Solution URL: [code](assets)
-- Live Site URL: [live site URL](https://your-live-site-url.com)
+- Live Site URL: [live site URL](https://audriaheinrich.github.io/recipe-page/index.html)
 
 ## My process
 
-I started by creating the structure with HTML and then applied CSS based on the requirements. As a best practice, I containerized everything using <article> and <section> tags before adding CSS properties to each portion. Media queries were used to ensure the display adapts to different screen sizes.
+I started by creating the structure with HTML and then applied CSS based on the requirements. As a best practice, I containerized everything using <article> and <section> tags before adding CSS properties to each portion. Media queries were used to ensure the display adapts to different screen sizes. Most of the CSS properties use tag names to maintain consistency throughout the code. 
 
 ### What I learned
 
-Most of the CSS properties use tag names to maintain consistency throughout the code. 
 
-To see how you can add code snippets, see below:
-
+Use link to Google Fonts instead of local font files
 ```html
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -44,6 +42,7 @@ To see how you can add code snippets, see below:
       rel="stylesheet"
     />
 ```
+The ::marker CSS pseudo-element selects the marker box of a list item, which typically contains a bullet or number.
 
 ```css
 ::marker {
@@ -53,19 +52,21 @@ To see how you can add code snippets, see below:
 ```
 
 ```css
+
+object-fit property determines how an <img> should be resized to fit its container.
 img {
   width: 100%;
   height: auto;
   object-fit: cover;
-  object-position: bottom;
 }
 ```
 
 ### Useful resources
 
-- [List Alignment](https://www.geeksforgeeks.org/how-to-remove-indentation-from-an-unordered-list-item-using-css/) - This helped me to align lists with the rest of the sections. 
+- [List Alignment](https://www.geeksforgeeks.org/how-to-remove-indentation-from-an-unordered-list-item-using-css/) - This helped me to align lists with the rest of the sections.
+- [List Markers](https://developer.mozilla.org/en-US/docs/Web/CSS/::marker) - This helped me to change colour of <li> markers without making changes to the content.
 - [Media Queries](https://www.geeksforgeeks.org/how-to-remove-indentation-from-an-unordered-list-item-using-css/https://www.geeksforgeeks.org/how-to-remove-indentation-from-an-unordered-list-item-using-css/) - This is an amazing article which helped me understand media queries. I'd recommend it to anyone still learning this concept.
-- [Responsiveness]( https://www.freecodecamp.org/news/css-responsive-image-tutorial/) - This is an amazing article which helped me understand responsiveness. I'd recommend it to anyone still learning this concept.
+- [Responsiveness](https://www.freecodecamp.org/news/css-responsive-image-tutorial/) - This is an amazing article which helped me understand responsiveness. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
