@@ -33,8 +33,8 @@ I started by creating the structure with HTML and then applied CSS based on the 
 ### What I learned
 
 
-Use link to Google Fonts instead of local font files
 ```html
+<!--Use link to Google Fonts instead of local font files-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -42,9 +42,10 @@ Use link to Google Fonts instead of local font files
       rel="stylesheet"
     />
 ```
-The ::marker CSS pseudo-element selects the marker box of a list item, which typically contains a bullet or number.
+
 
 ```css
+/*The ::marker CSS pseudo-element selects the marker box of a list item, which typically contains a bullet or number*/
 ::marker {
   color: hsl(14, 45%, 36%);
   font-weight: bold;
@@ -52,8 +53,7 @@ The ::marker CSS pseudo-element selects the marker box of a list item, which typ
 ```
 
 ```css
-
-object-fit property determines how an <img> should be resized to fit its container.
+/*object-fit property determines how an <img> should be resized to fit its container*/
 img {
   width: 100%;
   height: auto;
